@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_bg"
+    android:id="@+id/text_container">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/layout_bg"
+        android:drawSelectorOnTop="true"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/spot2" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000e66"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10dp"
+        android:drawSelectorOnTop="true"
+        tools:text="RedFort"
+        android:background="@android:color/white"
+        android:layout_below="@id/image_view" />
+</RelativeLayout>

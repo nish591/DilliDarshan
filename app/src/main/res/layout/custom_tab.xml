@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icon_round"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/layout_bg">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_back"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:id="@+id/imgView"
+                android:layout_gravity="center">
+            </ImageView>
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000e66"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingTop="7dp"
+        android:paddingBottom="15dp"
+        tools:text="apple"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

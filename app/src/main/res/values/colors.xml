@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#cc1f58</color>
+    <color name="attractions">#0598e8</color>
+    <color name="food">#f7702d</color>
+    <color name="shopping">#6f42db</color>
+    <color name="hotels">#e63127</color>
+    <color name="theme">#000e66</color>
+    <color name="toast">@android:color/black</color>
+    <color name="text_color">@android:color/white</color>
+</resources>
